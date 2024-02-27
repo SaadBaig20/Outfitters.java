@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="24.349" tests="10" skipped="0" failures="10" errors="0">
+<testcase classname="Purchase From Outfitters" name="User Purchases a Biker Leather Jacket" time="23.006">
+<failure type="org.openqa.selenium.TimeoutException" message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href='https://outfitters.com.pk/collections/men-most-popular-products'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\MSAAD~1.BAI\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52924}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52924/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f48aaa50cc29d043c4c56a4968cd5f80">
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href='https://outfitters.com.pk/collections/men-most-popular-products'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\MSAAD~1.BAI\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52924}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52924/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f48aaa50cc29d043c4c56a4968cd5f80
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at StepsOfPurchase.StepDefinition.i_navigate_to_the_most_popular_section(StepDefinition.java:63)
+	at ✽.I navigate to the most popular section(file:///C:/Users/msaad.baig/Desktop/Outfitters/Outfitters/src/test/resources/features/Outfitters.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I open the outfitters website.........................................passed
+And I navigate to the most popular section..................................failed
+When I click on the faux leather biker jacket...............................skipped
+Then I should see product details page......................................skipped
+And I click on the size xl..................................................skipped
+When I click on view cart button............................................skipped
+Then I should see cart page.................................................skipped
+And I click on checkout button..............................................skipped
+And I enter email...........................................................skipped
+And I enter First Name......................................................skipped
+And I enter Last Name.......................................................skipped
+And I enter Address.........................................................skipped
+And I enter City............................................................skipped
+And I enter Postal code.....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Purchase From Outfitters" name="User Purchases a Shirt" time="0.019">
+<failure/>
+<system-out><![CDATA[
+Given Saad is on outfitters website.........................................undefined
+And Saad click on search button.............................................skipped
+And Saad enter "shirts" in search term......................................skipped
+And Saad click on "check shirt".............................................skipped
+And Saad select "medium" size...............................................skipped
+And Saad click on add to cart button........................................skipped
+And Saad select view cart option............................................skipped
+And Saad enter the first name...............................................skipped
+And Saad enter the last name................................................skipped
+And Saad enter the address..................................................skipped
+And Saad enter the city.....................................................skipped
+And Saad enter the postal code..............................................skipped
+Then Saad proceed to checkout...............................................skipped
+And Saad review the order details...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Purchase From Outfitters" name="User Purchases a Polo shirt" time="0.024">
+<failure/>
+<system-out><![CDATA[
+Given User is on outfitters website.........................................undefined
+And User click on search button.............................................skipped
+And User enter "polo" in search term........................................skipped
+And User click on "solid polo shirt"........................................skipped
+And User select "medium" size...............................................skipped
+And User click on add to cart button........................................skipped
+And User select view cart option............................................skipped
+Then User should see shopping cart page.....................................skipped
+And User select checkout....................................................skipped
+Then User should see customer information page..............................skipped
+And User enter the first name...............................................skipped
+And User enter the last name................................................skipped
+And User enter the address..................................................skipped
+And User enter the city.....................................................skipped
+And User enter the postal code..............................................skipped
+Then User proceed to checkout...............................................skipped
+And User review the order details...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Purchase From Outfitters" name="User purchases a slim fit jeans" time="0.022">
+<failure/>
+<system-out><![CDATA[
+Given User is on outfitters website.........................................undefined
+And User click on search button.............................................skipped
+And User enter "jeans" in search term.......................................skipped
+And User click on "slim fit jeans"..........................................skipped
+And User select "30" size...................................................skipped
+And User click on add to cart button........................................skipped
+And User select view cart option............................................skipped
+Then User should see shopping cart page.....................................skipped
+And User select checkout....................................................skipped
+Then User should see customer information page..............................skipped
+And User enter the first name...............................................skipped
+And User enter the last name................................................skipped
+And User enter the address..................................................skipped
+And User enter the city.....................................................skipped
+And User enter the postal code..............................................skipped
+Then User proceed to checkout...............................................skipped
+And User review the order details...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Purchase From Outfitters" name="User purchases a skinny comfort jeans" time="0.024">
+<failure/>
+<system-out><![CDATA[
+Given User is on outfitters website.........................................undefined
+And User click on search button.............................................skipped
+And User enter "jeans" in search term.......................................skipped
+And User click on "skinny comfort jeans"....................................skipped
+And User select "30" size...................................................skipped
+And User click on add to cart button........................................skipped
+And User select view cart option............................................skipped
+Then User should see shopping cart page.....................................skipped
+And User select checkout....................................................skipped
+Then User should see customer information page..............................skipped
+And User enter the first name...............................................skipped
+And User enter the last name................................................skipped
+And User enter the address..................................................skipped
+And User enter the city.....................................................skipped
+And User enter the postal code..............................................skipped
+Then User proceed to checkout...............................................skipped
+And User review the order details...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Purchase From Outfitters" name="Saad purchases a basic jogger trouser" time="0.027">
+<failure/>
+<system-out><![CDATA[
+Given Saad is on outfitters website.........................................undefined
+And Saad click on search button.............................................skipped
+And Saad enter "trousers" in search term....................................skipped
+And Saad click on "basic jogger trouser"....................................skipped
+And Saad select "30" size...................................................skipped
+And Saad click on add to cart button........................................skipped
+And Saad select view cart option............................................skipped
+Then Saad should see shopping cart page.....................................skipped
+And Saad select checkout....................................................skipped
+Then Saad should see customer information page..............................skipped
+And Saad enter the first name...............................................skipped
+And Saad enter the last name................................................skipped
+And Saad enter the address..................................................skipped
+And Saad enter the city.....................................................skipped
+And Saad enter the postal code..............................................skipped
+Then Saad proceed to checkout...............................................skipped
+And Saad review the order details...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Purchase From Outfitters" name="Saad purchases a linen bermuda shorts" time="0.018">
+<failure/>
+<system-out><![CDATA[
+Given Saad is on outfitters website.........................................undefined
+And Saad click on search button.............................................skipped
+And Saad enter "shorts" in search term......................................skipped
+And Saad click on "linen bermuda shorts"....................................skipped
+And Saad select "30" size...................................................skipped
+And Saad click on add to cart button........................................skipped
+And Saad select view cart option............................................skipped
+Then Saad should see shopping cart page.....................................skipped
+And Saad select checkout....................................................skipped
+Then Saad should see customer information page..............................skipped
+And Saad enter the first name...............................................skipped
+And Saad enter the last name................................................skipped
+And Saad enter the address..................................................skipped
+And Saad enter the city.....................................................skipped
+And Saad enter the postal code..............................................skipped
+Then Saad proceed to checkout...............................................skipped
+And Saad review the order details...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Purchase From Outfitters" name="Saad purchases a regular fit co-ord set with zipper jacket" time="0.02">
+<failure/>
+<system-out><![CDATA[
+Given Saad is on outfitters website.........................................undefined
+And Saad click on search button.............................................skipped
+And Saad enter "co-ord set" in search term..................................skipped
+And Saad click on "regular fit co-ord set with zipper jacket"...............skipped
+And Saad select "medium" size...............................................skipped
+And Saad click on add to cart button........................................skipped
+And Saad select view cart option............................................skipped
+Then Saad should see shopping cart page.....................................skipped
+And Saad select checkout....................................................skipped
+Then Saad should see customer information page..............................skipped
+And Saad enter the first name...............................................skipped
+And Saad enter the last name................................................skipped
+And Saad enter the address..................................................skipped
+And Saad enter the city.....................................................skipped
+And Saad enter the postal code..............................................skipped
+Then Saad proceed to checkout...............................................skipped
+And Saad review the order details...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Purchase From Outfitters" name="Iqra purchases good vibes fragrance" time="0.017">
+<failure/>
+<system-out><![CDATA[
+Given Iqra is on outfitters website.........................................undefined
+And Iqra click on search button.............................................skipped
+And Iqra enter "fragrances" in search term..................................skipped
+And Iqra click on "good vibes fragrance"....................................skipped
+And Iqra click on add to cart button........................................skipped
+And Iqra select view cart option............................................skipped
+Then Iqra should see shopping cart page.....................................skipped
+And Iqra select checkout....................................................skipped
+Then Iqra should see customer information page..............................skipped
+And Iqra enter the first name...............................................skipped
+And Iqra enter the last name................................................skipped
+And Iqra enter the address..................................................skipped
+And Iqra enter the city.....................................................skipped
+And Iqra enter the postal code..............................................skipped
+Then Iqra proceed to checkout...............................................skipped
+And Iqra review the order details...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Purchase From Outfitters" name="Muhammad purchases dark knight fragrance" time="0.015">
+<failure/>
+<system-out><![CDATA[
+Given Muhammad is on outfitters website.....................................undefined
+And Muhammad click on search button.........................................skipped
+And Muhammad enter "fragrances" in search term..............................skipped
+And Muhammad click on "dark knight fragrance"...............................skipped
+And Muhammad click on add to cart button....................................skipped
+And Muhammmad select view cart option.......................................skipped
+Then Muhammad should see shopping cart page.................................skipped
+And Muhammad select checkout................................................skipped
+Then Muhammad should see customer information page..........................skipped
+And Muhammad enter the first name...........................................skipped
+And Muhammad enter the last name............................................skipped
+And Muhammad enter the address..............................................skipped
+And Muhammad enter the city.................................................skipped
+And Muhammad enter the postal code..........................................skipped
+Then Muhammad proceed to checkout...........................................skipped
+And Muhammad review the order details.......................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
